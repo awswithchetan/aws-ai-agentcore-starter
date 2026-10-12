@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+.prerequisites-install-state
+env/
+
+# Environment variables — never commit secrets
+.env
+.env.*
+*.env
+
+# AWS
+.aws/
+*.pem
+*.key
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
